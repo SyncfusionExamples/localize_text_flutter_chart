@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.localization_customizing">
+    package="com.example.localize_text_flutter_chart">
    <application
-        android:label="localization_customizing"
+        android:label="localize_text_flutter_chart"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
