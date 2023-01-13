@@ -1,6 +1,6 @@
 {
-    "name": "localization_customizing",
-    "short_name": "localization_customizing",
+    "name": "localize_text_flutter_chart",
+    "short_name": "localize_text_flutter_chart",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

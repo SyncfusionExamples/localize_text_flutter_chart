@@ -242,6 +242,143 @@ class SfLocalizationEs extends SfLocalizations {
 
   @override
   String get series => 'Customized string';
+
+  @override
+  String get afterDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get afterOrEqualDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get andDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get beforeDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get beforeOrEqualDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get beginsWithDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get cancelDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get clearFilterFromDataGridFilteringLabel =>
+      throw UnimplementedError();
+
+  @override
+  String get containsDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get dateFiltersDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get doesNotBeginWithDataGridFilteringLabel =>
+      throw UnimplementedError();
+
+  @override
+  String get doesNotContainDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get doesNotEndWithDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get doesNotEqualDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get emptyDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get endsWithDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get equalsDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get greaterThanDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get greaterThanOrEqualDataGridFilteringLabel =>
+      throw UnimplementedError();
+
+  @override
+  String get lessThanDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get lessThanOrEqualDataGridFilteringLabel =>
+      throw UnimplementedError();
+
+  @override
+  String get noMatchesDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get notEmptyDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get notNullDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get nullDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get numberFiltersDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get okDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get orDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get pdfHyperlinkContentLabel => throw UnimplementedError();
+
+  @override
+  String get pdfHyperlinkDialogCancelLabel => throw UnimplementedError();
+
+  @override
+  String get pdfHyperlinkDialogOpenLabel => throw UnimplementedError();
+
+  @override
+  String get pdfHyperlinkLabel => throw UnimplementedError();
+
+  @override
+  String get searchDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get selectAllDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get showRowsWhereDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get sortAToZDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get sortAndFilterDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get sortLargestToSmallestDataGridFilteringLabel =>
+      throw UnimplementedError();
+
+  @override
+  String get sortNewestToOldestDataGridFilteringLabel =>
+      throw UnimplementedError();
+
+  @override
+  String get sortOldestToNewestDataGridFilteringLabel =>
+      throw UnimplementedError();
+
+  @override
+  String get sortSmallestToLargestDataGridFilteringLabel =>
+      throw UnimplementedError();
+
+  @override
+  String get sortZToADataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get textFiltersDataGridFilteringLabel => throw UnimplementedError();
 }
 
 class SfLocalizationEsDelegate extends LocalizationsDelegate<SfLocalizations> {
