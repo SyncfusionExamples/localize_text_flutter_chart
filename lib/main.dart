@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
         body: SfCartesianChart(
             legend: Legend(isVisible: true),
             tooltipBehavior: _tooltipBehavior,
-            series: <ChartSeries<ChartData, double>>[
+            series: <ColumnSeries<ChartData, double>>[
               ColumnSeries<ChartData, double>(
                   dataSource: chartData,
                   xValueMapper: (ChartData data, _) => data.x,
@@ -265,10 +265,6 @@ class SfLocalizationEs extends SfLocalizations {
   String get cancelDataGridFilteringLabel => throw UnimplementedError();
 
   @override
-  String get clearFilterFromDataGridFilteringLabel =>
-      throw UnimplementedError();
-
-  @override
   String get containsDataGridFilteringLabel => throw UnimplementedError();
 
   @override
@@ -379,6 +375,40 @@ class SfLocalizationEs extends SfLocalizations {
 
   @override
   String get textFiltersDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get clearFilterDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get fromDataGridFilteringLabel => throw UnimplementedError();
+
+  @override
+  String get pdfSignaturePadDialogClearLabel => throw UnimplementedError();
+
+  @override
+  String get pdfSignaturePadDialogHeaderTextLabel => throw UnimplementedError();
+
+  @override
+  String get pdfSignaturePadDialogPenColorLabel => throw UnimplementedError();
+
+  @override
+  String get pdfSignaturePadDialogSaveLabel => throw UnimplementedError();
+
+  @override
+  String get pdfTextSelectionMenuCopyLabel => throw UnimplementedError();
+
+  @override
+  String get pdfTextSelectionMenuHighlightLabel => throw UnimplementedError();
+
+  @override
+  String get pdfTextSelectionMenuSquigglyLabel => throw UnimplementedError();
+
+  @override
+  String get pdfTextSelectionMenuStrikethroughLabel =>
+      throw UnimplementedError();
+
+  @override
+  String get pdfTextSelectionMenuUnderlineLabel => throw UnimplementedError();
 }
 
 class SfLocalizationEsDelegate extends LocalizationsDelegate<SfLocalizations> {
